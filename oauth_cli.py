@@ -4,6 +4,8 @@ import webbrowser
 from http.server import BaseHTTPRequestHandler, HTTPServer
 from urllib.parse import urlparse, parse_qs
 
+#TODO: make secrets hidden, make port dynamic -> search for idle port 
+
 AUTH0_DOMAIN = ""
 CLIENT_ID = ""
 CLIENT_SECRET = ""
